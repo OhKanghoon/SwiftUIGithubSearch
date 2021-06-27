@@ -10,3 +10,6 @@ tuist generate --open
 - [Tuist](tuist.io)
 - Xcode 12.5
 - Swift 5.4
+
+## License
+SwiftUIGithubSearch is under MIT license. See the [LICENSE](LICENSE) file for more info.
