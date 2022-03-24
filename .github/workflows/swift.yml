@@ -1,0 +1,15 @@
+name: Test
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - name: Remove SSH
+      run: |
+        cat ~/.ssh/config
